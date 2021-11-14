@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+    <style>
+        
+        body{
+            margin: 0;
+            background-color:cornsilk
+        }
+        h2{
+           
+            font-style: italic;
+            padding-top:20px;
+            padding-bottom: 30px;
+            padding-left:75px;
+            color:maroon;
+        }
+        td{
+            background-color: cornsilk;
+            
+        }
+        #container{
+            width:500px;
+            height: 500px;
+            box-shadow: 0px,0px,10px solid black;
+            padding-left: 500px;
+        }
+        button{
+          
+            border-radius: 5px;
+            background-color: white;
+            
+        }
+        button:hover{
+            background-color: cyan;
+        }
+        #q1,#q2,#q3{
+            background-color: white;
+            height: 50px;
+            width: 340px;
+            border-radius: 5px;
+            text-align: center;
+            padding-top: 25px;
+        }
+        #ans1,#ans2,#ans3{
+            background-color: white;
+            width: 340px;
+            border-radius: 5px;
+            text-align: center;
+                    
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h2>General Questions </h2>
+       
+                <p id="q1">Do You Accept All Major Credit Cards?  &nbsp;&nbsp;<button id="bt1" onclick="ansfunc('1')">+</button>
+                    <p id="ans1"></p>
+                </p>
+                <p id="q2">Do You Support Local Farmers? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button id="bt2" onclick="ansfunc('2')">+</button>
+                    <p id="ans2"></p>
+                </p>
+                <p id="q3">Do You Use organic Ingredients? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button id="bt3" onclick="ansfunc('3')">+</button>
+                    <p id="ans3"></p>
+                </p>
+    </div>
+    <script src="testnov14.js"></script>
+</body>
+</html>
